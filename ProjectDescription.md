@@ -39,8 +39,8 @@ The dataset of 76,400 observations was split 80/20 into train and test sets. The
  
 * Testing
     * Accuracy 77.8%
-    * precision % 78.81
-    * recall  78.75.0%
+    * precision 78.81%
+    * recall  78.75%
 
 ## Tools
 * Numpy and Pandas to manipulate data
