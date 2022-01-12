@@ -12,23 +12,23 @@ The original dataset includes over 300,000 galaxies and their specific classific
 
 ### Model 
 
-The model used is a Convolutional Neural Network with 3 convolutional layers, and 3 connected layers. d average pooling and dropout are also used to avoid overfitting.
+The model used is a Convolutional Neural Network with 3 convolutional layers, and 3 connected layers. Average pooling and dropouts were also used to avoid overfitting.
 
 ### Model Evaluation and Selection
 
-The dataset of 76,400 observations was split into 80/20 train and test sets. The train set was further divided 80/20 into train and validation subsets to find the optimal model and hyperparameters. The test set was never used during training or validation and was only used to score the model. I also trained my data on resnet18 with pretrained parameters to compare a pretrained to a non-pretrained model. Both are trained on 20 epochs.
+The dataset of 76,400 observations was split 80/20 into train and test sets. The train set was further divided 80/20 into train and validation subsets to find the optimal model and hyperparameters. The test set was never used during training or validation and was only used to score the model. I also trained my data on resnet18 with pretrained parameters to compare a pretrained to a non-pretrained model. Both are trained on 20 epochs.
 
 ### Non-pretrained model
 
 * Training
-    * Accuracy
-    * precision
-    * recall
+    * Accuracy 77.20%
+    * precision 80.64%
+    * recall 75.29%
   
 * Testing
-    * Accuracy
-    * precision
-    * recall
+    * Accuracy 77.35%
+    * precision 83.81%
+    * recall 71.31%
 
 ### Resnet18
 
@@ -38,9 +38,9 @@ The dataset of 76,400 observations was split into 80/20 train and test sets. The
     * Recall    99.13% 
  
 * Testing
-    * Accuracy
-    * precision
-    * recall
+    * Accuracy 77.8%
+    * precision % 78.81
+    * recall  78.75.0%
 
 ## Tools
 * Numpy and Pandas to manipulate data
