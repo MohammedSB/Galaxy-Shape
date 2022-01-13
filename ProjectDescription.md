@@ -26,9 +26,9 @@ The dataset of 76,400 observations was split 80/20 into train and test sets. The
     * recall 75.29%
   
 * Testing
-    * Accuracy 77.35%
-    * precision 83.81%
-    * recall 71.31%
+    * Accuracy 77.65%
+    * precision 83.38%
+    * recall 71.63%
 
 ### Resnet18
 
@@ -39,8 +39,8 @@ The dataset of 76,400 observations was split 80/20 into train and test sets. The
  
 * Testing
     * Accuracy 77.8%
-    * precision 78.81%
-    * recall  78.75%
+    * precision 79.43%
+    * recall 78.87%
 
 ## Tools
 * Numpy and Pandas to manipulate data
