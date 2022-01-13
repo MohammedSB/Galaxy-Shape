@@ -16,9 +16,9 @@ The model used is a Convolutional Neural Network with 3 convolutional layers, an
 
 ### Model Evaluation and Selection
 
-The dataset of 76,400 observations was split 80/20 into train and test sets. The train set was further divided 80/20 into train and validation subsets to find the optimal model and hyperparameters. The test set was never used during training or validation and was only used to score the model. I also trained my data on resnet18 with pretrained parameters to compare a pretrained to a non-pretrained model. Both are trained on 20 epochs.
+The dataset of 76,400 observations was split 80/20 into train and test sets. The train set was further divided 80/20 into train and validation subsets to find the optimal model and hyperparameters. The test set was never used during training or validation and was only used to score the model. I also trained my data on resnet18 with pretrained parameters to compare a pretrained to a non-pretrained model or infant model. Both are trained on 20 epochs.
 
-### Non-pretrained model
+### Infant Model
 
 * Training
     * Accuracy 77.20%
